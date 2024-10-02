@@ -1,0 +1,22 @@
+title: Hoho Inc Projects
+description: this is my projects
+url: "https://hohoinc.github.io"
+baseurl: ""  # Leave this blank for a project site hosted at the root of the repository
+
+# Use Cayman theme
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Optional settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude files from being published on the site (optional)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins (optional)
+plugins:
+  - jekyll-feed  # Adds an RSS feed for your site
+  - jekyll-seo-tag  # SEO enhancements for your site
